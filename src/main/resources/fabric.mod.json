@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "pointless_machine",
+  "version": "${version}",
+  "name": "Pointless Machine",
+  "description": "Adds many pointless patterns.",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pointless_machine/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.sable.pointless_machine.client.Pointless_machineDataGenerator"
+    ],
+    "client": [
+      "org.sable.pointless_machine.client.Pointless_machineClient"
+    ],
+    "main": [
+      "org.sable.pointless_machine.Pointless_machine"
+    ]
+  },
+  "mixins": [
+    "pointless_machine.mixins.json",
+    {
+      "config": "pointless_machine.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
