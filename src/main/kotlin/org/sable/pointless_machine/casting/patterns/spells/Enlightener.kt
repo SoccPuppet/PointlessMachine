@@ -32,6 +32,7 @@ object Enlightener : SpellAction{
             val caster = env.castingEntity
             if(caster !== null){
                 target.lookAt(EntityAnchorArgumentType.EntityAnchor.EYES, caster.eyePos)
+                target.addVelocity(caster.eyePos.subtract(target.eyePos).normalize().multiply(2.0))
             }
         }
     }
