@@ -7,6 +7,7 @@ import at.petrak.hexcasting.api.casting.math.HexPattern
 import at.petrak.hexcasting.common.lib.hex.HexActions
 import net.minecraft.registry.Registry
 import org.sable.pointless_machine.Pointless_machine
+import org.sable.pointless_machine.casting.patterns.GetOffline
 import org.sable.pointless_machine.casting.patterns.spells.SummonWither
 import org.sable.pointless_machine.casting.patterns.spells.TouchGrass
 import org.sable.pointless_machine.casting.patterns.GetOrigin
@@ -19,6 +20,7 @@ object Patterns {
         import("touch_grass", "wwqqadadadaq", HexDir.EAST, TouchGrass)
         import("get_origin", "aqadaqa", HexDir.NORTH_WEST, GetOrigin)
         import("get_self", "wqqwqqdaqqqa", HexDir.EAST, GetSelf)
+        import("get_offline", "eqqqwqqw", HexDir.NORTH_EAST, GetOffline)
     }
     @JvmStatic
     fun import(id : String, signature : String, startDir : HexDir, action : Action){
