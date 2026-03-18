@@ -34,6 +34,30 @@
     },
     {
       "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:get_vidi",
+      "anchor": "pointless_machine:get_vidi",
+      "input": "",
+      "output": "pattern",
+      "text": "pointless_machine.page.spells.get_vidi"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:get_vici",
+      "anchor": "pointless_machine:get_vici",
+      "input": "",
+      "output": "pattern",
+      "text": "pointless_machine.page.spells.get_vici"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:get_veni",
+      "anchor": "pointless_machine:get_veni",
+      "input": "",
+      "output": "pattern",
+      "text": "pointless_machine.page.spells.get_veni"
+    },
+    {
+      "type": "hexcasting:pattern",
       "op_id": "pointless_machine:get_self",
       "anchor": "pointless_machine:get_self",
       "input": "",
