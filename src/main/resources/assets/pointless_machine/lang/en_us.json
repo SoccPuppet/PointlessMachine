@@ -1,0 +1,17 @@
+{
+  "pointless_machine.entry.patterns.spells": "Pointless Patterns",
+
+  "pointless_machine.page.spells_desc": "I have uncovered a wealth of patterns from a hidden ancient library. Despite its security and obscurity, the library seems to have held frankly nonsensical patterns. I have nevertheless documented them here.",
+  "pointless_machine.page.spells.summon_wither": "Brings forth a terrible undead hydra. The pattern is strangely free to cast: I shudder to imagine the malice its creator must've held to optimize the cost of such a spell.",
+  "pointless_machine.page.spells.get_origin": "Returns the origin of the world I cast it in.",
+
+  "hexcasting.action.pointless_machine:summon_wither": "Create Wither Roses",
+  "hexcasting.action.pointless_machine:get_origin": "Originality's Reflection",
+
+  "pointless_machine.entry.patterns.great": "More Pointless Patterns",
+
+  "pointless_machine.page.great_desc": "The ancient library has a second level, predictably filled with more inane patterns. But the creators saw them fit to be sealed: perhaps the uselessness was a cover?",
+  "pointless_machine.page.great.touch_grass": "Swiftly brings me in contact with nature. 10 $(l:items/amethyst)$(item)Charged Amethyst/$ is the price for this feat.",
+
+  "hexcasting.action.pointless_machine:touch_grass": "Touch Grass"
+}

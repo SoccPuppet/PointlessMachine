@@ -1,0 +1,28 @@
+{
+  "name": "pointless_machine.entry.patterns.spells",
+  "icon": "minecraft:dried_kelp",
+  "category": "hexcasting:patterns",
+  "advancement": "hexcasting:root",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "pointless_machine.page.spells_desc"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:summon_wither",
+      "anchor": "pointless_machine:summon_wither",
+      "input": "vector",
+      "output": "",
+      "text": "pointless_machine.page.spells.summon_wither"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:get_origin",
+      "anchor": "pointless_machine:get_origin",
+      "input": "",
+      "output": "vector",
+      "text": "pointless_machine.page.spells.get_origin"
+    }
+  ]
+}
