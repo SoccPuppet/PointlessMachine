@@ -23,6 +23,14 @@
       "input": "",
       "output": "vector",
       "text": "pointless_machine.page.spells.get_origin"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:get_self",
+      "anchor": "pointless_machine:get_self",
+      "input": "",
+      "output": "pattern",
+      "text": "pointless_machine.page.spells.get_self"
     }
   ]
 }

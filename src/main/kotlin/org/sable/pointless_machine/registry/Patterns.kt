@@ -10,6 +10,7 @@ import org.sable.pointless_machine.Pointless_machine
 import org.sable.pointless_machine.casting.patterns.spells.SummonWither
 import org.sable.pointless_machine.casting.patterns.spells.TouchGrass
 import org.sable.pointless_machine.casting.patterns.GetOrigin
+import org.sable.pointless_machine.casting.patterns.GetSelf
 
 object Patterns {
     @JvmStatic
@@ -17,6 +18,7 @@ object Patterns {
         import("summon_wither", "qdqqqqdqwaadwqaawddewdaa", HexDir.SOUTH_EAST, SummonWither(1))
         import("touch_grass", "wwqqadadadaq", HexDir.EAST, TouchGrass)
         import("get_origin", "aqadaqa", HexDir.NORTH_WEST, GetOrigin)
+        import("get_self", "wqqwqqdaqqqa", HexDir.EAST, GetSelf)
     }
     @JvmStatic
     fun import(id : String, signature : String, startDir : HexDir, action : Action){
