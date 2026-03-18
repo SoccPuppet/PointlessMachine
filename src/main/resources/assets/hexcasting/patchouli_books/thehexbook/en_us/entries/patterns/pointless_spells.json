@@ -29,7 +29,7 @@
       "op_id": "pointless_machine:get_offline",
       "anchor": "pointless_machine:get_offline",
       "input": "",
-      "output": "vector",
+      "output": "player?",
       "text": "pointless_machine.page.spells.get_offline"
     },
     {

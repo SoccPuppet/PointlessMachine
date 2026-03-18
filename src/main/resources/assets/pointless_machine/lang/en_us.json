@@ -16,6 +16,8 @@
 
   "pointless_machine.page.great_desc": "The ancient library has a second level, predictably filled with more inane patterns. But the creators saw them fit to be sealed: perhaps the uselessness was a cover?",
   "pointless_machine.page.great.touch_grass": "Swiftly brings me in contact with nature. 10 $(l:items/amethyst)$(item)Charged Amethyst/$ is the price for this feat.",
+  "pointless_machine.page.great.enlightener": "The target will achieve Enlightenment. A single amethyst shard is all this miracle requires. Only usable on armor stands.",
 
-  "hexcasting.action.pointless_machine:touch_grass": "Touch Grass"
+  "hexcasting.action.pointless_machine:touch_grass": "Touch Grass",
+  "hexcasting.action.pointless_machine:enlightener": "Enlighten"
 }

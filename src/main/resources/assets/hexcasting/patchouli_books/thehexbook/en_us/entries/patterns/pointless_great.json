@@ -10,6 +10,14 @@
     },
     {
       "type": "hexcasting:pattern",
+      "op_id": "pointless_machine:enlightener",
+      "anchor": "pointless_machine:enlightener",
+      "input": "entity",
+      "output": "",
+      "text": "pointless_machine.page.great.enlightener"
+    },
+    {
+      "type": "hexcasting:pattern",
       "op_id": "pointless_machine:touch_grass",
       "anchor": "pointless_machine:touch_grass",
       "input": "player",
