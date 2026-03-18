@@ -8,7 +8,6 @@ import at.petrak.hexcasting.common.lib.hex.HexActions
 import net.minecraft.registry.Registry
 import org.sable.pointless_machine.Pointless_machine
 import org.sable.pointless_machine.casting.patterns.GetOffline
-import org.sable.pointless_machine.casting.patterns.spells.SummonWither
 import org.sable.pointless_machine.casting.patterns.spells.TouchGrass
 import org.sable.pointless_machine.casting.patterns.GetOrigin
 import org.sable.pointless_machine.casting.patterns.GetSelf
@@ -20,7 +19,6 @@ import org.sable.pointless_machine.casting.patterns.spells.Enlightener
 object Patterns {
     @JvmStatic
     fun register() {
-        import("summon_wither", "qdqqqqdqwaadwqaawddewdaa", HexDir.SOUTH_EAST, SummonWither(1))
         import("touch_grass", "wwqqadadadaq", HexDir.EAST, TouchGrass)
         import("get_origin", "aqadaqa", HexDir.NORTH_WEST, GetOrigin)
         import("get_self", "wqqwqqdaqqqa", HexDir.EAST, GetSelf)

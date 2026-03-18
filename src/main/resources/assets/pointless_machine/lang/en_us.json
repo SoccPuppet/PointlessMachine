@@ -2,7 +2,6 @@
   "pointless_machine.entry.patterns.spells": "Pointless Patterns",
 
   "pointless_machine.page.spells_desc": "I have uncovered a wealth of patterns from a hidden ancient library. Despite its security and obscurity, the library seems to have held frankly nonsensical patterns. I have nevertheless documented them here.",
-  "pointless_machine.page.spells.summon_wither": "Brings forth a terrible undead hydra. The pattern is strangely free to cast: I shudder to imagine the malice its creator must've held to optimize the cost of such a spell.",
   "pointless_machine.page.spells.get_origin": "Returns the origin of the world I cast it in. Free.",
   "pointless_machine.page.spells.get_offline": "Returns a reference to a random offline player. Free.",
   "pointless_machine.page.spells.get_self": "Returns this pattern. Free. $(br)Oddly chimes a faint buzzing in my ear: perhaps its inventor was fond of bees.",
@@ -10,7 +9,6 @@
   "pointless_machine.page.spells.get_vidi": "Returns Vidi. Free.",
   "pointless_machine.page.spells.get_vici": "Returns Vici. Free.",
 
-  "hexcasting.action.pointless_machine:summon_wither": "Create Wither Roses",
   "hexcasting.action.pointless_machine:get_origin": "Originality's Reflection",
   "hexcasting.action.pointless_machine:get_self": "Metafold's Reflection",
   "hexcasting.action.pointless_machine:get_offline": "Waitlist's Reflection",
