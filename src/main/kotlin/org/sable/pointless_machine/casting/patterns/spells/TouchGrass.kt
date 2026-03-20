@@ -7,7 +7,6 @@ import at.petrak.hexcasting.api.casting.eval.CastingEnvironment
 import at.petrak.hexcasting.api.casting.getPlayer
 import at.petrak.hexcasting.api.casting.iota.Iota
 import at.petrak.hexcasting.api.misc.MediaConstants
-import at.petrak.hexcasting.ktxt.markHurt
 import net.minecraft.block.Blocks
 import net.minecraft.server.network.ServerPlayerEntity
 
@@ -25,9 +24,7 @@ object TouchGrass : SpellAction{
 
     private data class Spell(val target : ServerPlayerEntity) : RenderedSpell{
         override fun cast(env: CastingEnvironment) {
-            target.addVelocity(0.0, -100.0, 0.0)
-            target.markHurt()
-            env.world.setBlockState(target.blockPos.down(), Blocks.GRASS_BLOCK.defaultState)
+            env.world.setBlockState(target.blockPos, Blocks.GRASS_BLOCK.defaultState)
         }
     }
 }
