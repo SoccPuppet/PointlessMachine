@@ -8,6 +8,7 @@
   "pointless_machine.page.spells.get_veni": "Returns Veni. Free.",
   "pointless_machine.page.spells.get_vidi": "Returns Vidi. Free.",
   "pointless_machine.page.spells.get_vici": "Returns Vici. Free.",
+  "pointless_machine.page.spells.concrete_drier": "Extract the water from the target concrete block, turning it back to concrete powder. Mishaps if the target is not concrete. One tenth of a pinch of amethyst dust is required.",
 
   "hexcasting.action.pointless_machine:get_origin": "Originality's Reflection",
   "hexcasting.action.pointless_machine:get_self": "Metafold's Reflection",
@@ -15,6 +16,7 @@
   "hexcasting.action.pointless_machine:get_veni": "Vici",
   "hexcasting.action.pointless_machine:get_vidi": "Veni",
   "hexcasting.action.pointless_machine:get_vici": "Vidi",
+  "hexcasting.action.pointless_machine:concrete_drier": "Concrete Drier",
 
   "pointless_machine.entry.patterns.great": "More Pointless Patterns",
 
